@@ -1,14 +1,15 @@
 import chalk from 'chalk';
 import randomColor from 'randomcolor';
 
+const color = randomColor();
 if (process.argv.length < 3) {
   console.log(
-    chalk.hex(randomColor())(
+    chalk.hex(color)(
       `    ###############################
     ###############################
     ###############################
     #####                     #####
-    #####       ${randomColor()}       #####
+    #####       ${color}       #####
     #####                     #####
     ###############################
     ###############################
