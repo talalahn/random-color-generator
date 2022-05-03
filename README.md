@@ -6,7 +6,7 @@ When a user enters node index.js in the command line, a block of approximately 3
 
 
 $ node index.js  
-<img width="229" alt="random1" src="https://user-images.githubusercontent.com/102095041/166487177-b645a226-9b1b-4c5b-b585-34f6b9202be4.png">
+<img width="229" alt="random1" src="https://user-images.githubusercontent.com/102095041/166487565-90b574a8-8740-443b-90a1-ef2e43871553.png">
 
 
 $ node index.js  
