@@ -16,6 +16,11 @@ if (process.argv.length < 3) {
     ###############################`,
     ),
   );
+} else if (process.argv[2] === 'ask') {
+  console.log(
+    `What color would you like?
+What luminosity?`,
+  );
 } else if (process.argv.length < 4) {
   console.log(
     chalk.hex(randomColor({ hue: process.argv[2] }))(
